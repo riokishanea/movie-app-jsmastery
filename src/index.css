@@ -11,6 +11,7 @@
   --color-border: #e5e7eb;
   
   --font-inter: Inter, sans-serif;
+  --font-space-mono: 'Space Mono', monospace;
   
   --breakpoint-xs: 480px;
 }
@@ -74,7 +75,8 @@
     }
 
     & ul li p {
-      @apply text-5xl font-bold text-blue-500 font-space-mono animation-number-pop;
+      @apply text-5xl font-bold text-blue-500 animation-number-pop;
+      font-family: 'Space Mono', monospace;
     }
 
     & ul li img {
